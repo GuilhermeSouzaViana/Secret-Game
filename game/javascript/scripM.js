@@ -22,7 +22,7 @@ let tset
 let gtime = -2
 let erro = 0
 
-impressao.innerHTML=secret
+
 
 function stopWatch() {
   back.play()
