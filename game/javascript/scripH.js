@@ -1,3 +1,4 @@
+const container=document.getElementById("container")
 const btnJogar = document.getElementById("play");
 const entrada = document.getElementById("entrada");
 const impressao = document.getElementById("impressao");
@@ -34,9 +35,11 @@ function stopWatch() {
     back.pause()
     clock.pause()
     gm.play()
-    body.style.backgroundImage = " url(../imagens/gmr.jpg)"
+    container.style.backgroundImage = " url(../imagens/gmrt.jpg)"
     entrada.style.display = "none"
     btnJogar.style.display = "none"
+    impressao.style.color = "red"
+    impressaoErro.style.color = "red"
     impressao.innerHTML = "Tempo esgotado !"
     impressaoErro.innerHTML = "O numero secreto é: " + secret
   }else if(time<=10){
@@ -70,10 +73,12 @@ const jogar = function () {
     clock.pause()
     yw.play()
     clearInterval(set)
-    body.style.backgroundImage = " url(../imagens/yw.jpg)"
-    impressao.style.color = "green"
+    container.style.backgroundImage = " url(../imagens/youw.jpg)"
+    impressao.style.color = "rgb(59, 255, 59)"
     impressao.innerHTML = "Parabéns, você acertou o número!"
     impressaoErro.innerHTML = "Você precisou de " + erro + " tentativas"
+    impressaoErro.style.color = "rgb(59, 255, 59)"
+    impressaoTempo.style.color = "rgb(59, 255, 59)"
     impressaoTempo.innerHTML = "O tempo total gasto foi: " + gtime + " segundos"
     sn.style.display = "none"
     entrada.style.display = "none"

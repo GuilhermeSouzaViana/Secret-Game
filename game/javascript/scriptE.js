@@ -35,12 +35,13 @@ const jogar = function(){
   },2000)
 
 }else if(entrada.value==secret){
-  body.style.backgroundImage = " url(../imagens/yw.jpg)"
+  container.style.backgroundImage = " url(../imagens/youw.jpg)"
   gm.pause()
   yw.play()
-  impressao.style.color="green"
+  impressao.style.color = "rgb(59, 255, 59)"
   impressao.innerHTML="Parabéns, você acertou o número!"
   impressaoErro.innerHTML="Você precisou de "+ erro +" tentativas para acertar"
+  impressaoErro.style.color = "rgb(59, 255, 59)"
   sn.style.display = "none"
   entrada.style.display = "none"
   btnJogar.style.display = "none"
