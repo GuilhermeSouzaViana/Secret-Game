@@ -73,7 +73,7 @@ background-repeat:space;
    color: white;
 }
 
-@media screen and (min-width:250px) and (max-width:399px) {
+@media screen and (min-width:250px) and (max-width:349px) {
 
 
   
@@ -116,7 +116,7 @@ background-repeat:space;
 }
 
 
-@media screen and (min-width:400px) and (max-width:599px){
+@media screen and (min-width:350px) and (max-width:599px){
 
 
   body{background-image: url(../imagens/nummr.jpg);}
