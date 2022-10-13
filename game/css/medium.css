@@ -62,7 +62,7 @@ background-repeat:space;
 
 
 #timer{
-  padding: 5px;
+  padding:5px;
   width: 150px;
   height: 100px;
   margin-left: auto;
@@ -102,7 +102,7 @@ background-repeat:space;
     }
   
     #container h2{
-      margin-left:10%;
+      margin-left:8%;
       font-size: 14px;
   
     }
@@ -137,8 +137,8 @@ background-repeat:space;
     }
   
     #container h2{
-      margin-left:17%;
-      font-size: 18px;
+      margin-left:16%;
+      font-size: 16px;
   
     }
    
@@ -171,8 +171,8 @@ body{background-image: url(../imagens/numemr.jpg);}
   }
 
   #container h2{
-    margin-left:14%;
-    font-size: 25px;
+    margin-left:12%;
+    font-size: 23px;
 
   }
  
@@ -203,8 +203,8 @@ body{background-image: url(../imagens/numemr.jpg);}
     }
   
     #container h2{
-      margin-left:13%;
-      font-size: 28px;
+      margin-left:11%;
+      font-size: 26px;
     }
 
     #container{
@@ -216,8 +216,8 @@ body{background-image: url(../imagens/numemr.jpg);}
 
 @media screen and (min-width:1500px) {
   #container h2{
-    margin-left:8%;
-    font-size: 30px;
+    margin-left:7%;
+    font-size: 28px;
   }
   body{  background-image:url(../imagens/numemrr.jpg);}
 }
