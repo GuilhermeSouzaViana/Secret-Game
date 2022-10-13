@@ -45,7 +45,7 @@ background-repeat:space;
   background-color: rgb(12, 91, 209);
   border-radius: 15px;
   width: 30%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 
@@ -102,7 +102,7 @@ background-repeat:space;
     }
   
     #container h2{
-      margin-left:8%;
+      margin-left:10%;
       font-size: 14px;
   
     }
@@ -137,8 +137,8 @@ background-repeat:space;
     }
   
     #container h2{
-      margin-left:16%;
-      font-size: 16px;
+      margin-left:15%;
+      font-size: 18px;
   
     }
    
@@ -171,8 +171,8 @@ body{background-image: url(../imagens/numemr.jpg);}
   }
 
   #container h2{
-    margin-left:10%;
-    font-size: 18px;
+    margin-left:14%;
+    font-size: 23px;
 
   }
  
