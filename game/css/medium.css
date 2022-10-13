@@ -185,6 +185,15 @@ body{background-image: url(../imagens/numemr.jpg);}
 }
 
 
+
+@media screen and (min-width:786px) and (max-width:900px) {
+  #container h2{
+    margin-left:11%;
+    font-size:22px;
+  }
+}
+
+
 @media screen and (min-width:1400px) {
   #impressao{
     font-size: 30px;
