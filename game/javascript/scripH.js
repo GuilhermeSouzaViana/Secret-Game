@@ -25,6 +25,13 @@ let erro = 0
 
 
 
+function endgame (){
+  sn.style.display = "none"
+  entrada.style.display = "none"
+  btnJogar.style.display = "none"
+}
+
+
 function stopWatch() {
   back.play()
   timer.innerHTML = time
@@ -36,8 +43,7 @@ function stopWatch() {
     clock.pause()
     gm.play()
     container.style.backgroundImage = " url(../imagens/gmrt.jpg)"
-    entrada.style.display = "none"
-    btnJogar.style.display = "none"
+    endgame()
     impressao.style.color = "red"
     impressaoErro.style.color = "red"
     impressao.innerHTML = "Tempo esgotado !"
@@ -80,9 +86,7 @@ const jogar = function () {
     impressaoErro.style.color = "rgb(59, 255, 59)"
     impressaoTempo.style.color = "rgb(59, 255, 59)"
     impressaoTempo.innerHTML = "O tempo total gasto foi: " + gtime + " segundos"
-    sn.style.display = "none"
-    entrada.style.display = "none"
-    btnJogar.style.display = "none"
+     endgame()
   }
 }
 

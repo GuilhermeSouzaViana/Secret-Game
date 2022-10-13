@@ -13,6 +13,11 @@ let yw=new Audio()
 yw.src="../audios/youwin.mp3"
 
 
+function limpar(){
+  impressao.innerHTML = ""
+}
+
+
 const jogar = function(){
   if(entrada.value>secret){
     gm.play()
@@ -20,9 +25,7 @@ const jogar = function(){
   entrada.value = "";
   impressao.style.color="red"
   impressao.innerHTML="Você errou. O número secreto é menor"
-  setTimeout(function(){
-    impressao.innerHTML=""
-  },2000)
+  setTimeou(limpar,2000)
 
 }else if(entrada.value<secret){  
   gm.play() 
@@ -30,9 +33,7 @@ const jogar = function(){
   entrada.value = "";
   impressao.style.color="rgb(235, 0, 0)"
   impressao.innerHTML="Você errou. O número secreto é maior"
-  setTimeout(function(){
-    impressao.innerHTML=""
-  },2000)
+  setTimeou(limpar,2000)
 
 }else if(entrada.value==secret){
   container.style.backgroundImage = " url(../imagens/youw.jpg)"
