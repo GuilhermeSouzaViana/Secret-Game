@@ -8,9 +8,9 @@ const timer=document.getElementById("timer")
 const body = document.getElementById("body")
 let erro=0
 let gm=new Audio()
-gm.src="../audios/easy.mp3"
+gm.src="../audios/e.mp3"
 let yw=new Audio()
-yw.src="../audios/youwin.mp3"
+yw.src="../audios/ywin.mp3"
 
 
 function limpar(){
@@ -36,7 +36,7 @@ const jogar = function(){
   setTimeou(limpar,2000)
 
 }else if(entrada.value==secret){
-  container.style.backgroundImage = " url(../imagens/youw.jpg)"
+  container.style.backgroundImage = " url(../imagens/youwin.jpg)"
   gm.pause()
   yw.play()
   impressao.style.color = "rgb(59, 255, 59)"

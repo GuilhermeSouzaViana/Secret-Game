@@ -1,6 +1,6 @@
  body {
 background-color:black;
-background-image: url(../imagens/numm.jpg);
+background-image: url(../imagens/numem.jpg);
 background-repeat:space;
 }
 
@@ -18,7 +18,7 @@ background-repeat:space;
 
 
 #container h2{
-  margin-left:20%;
+  margin-left:15%;
   font-size: 25px;
 }
 
@@ -97,12 +97,12 @@ background-repeat:space;
     }
   
     #play{
-      font-size: 12px;
+      font-size: 11px;
       width:38%;
     }
   
     #container h2{
-      margin-left:15%;
+      margin-left:10%;
       font-size: 14px;
   
     }
@@ -119,7 +119,7 @@ background-repeat:space;
 @media screen and (min-width:350px) and (max-width:599px){
 
 
-  body{background-image: url(../imagens/nummr.jpg);}
+  body{background-image: url(../imagens/numemr.jpg);}
 
   #impressao{
     font-size: 18px;
@@ -132,12 +132,12 @@ background-repeat:space;
     }
   
     #play{
-      font-size: 14px;
+      font-size: 16px;
       width: 38%;
     }
   
     #container h2{
-      margin-left:13%;
+      margin-left:17%;
       font-size: 18px;
   
     }
@@ -156,7 +156,7 @@ background-repeat:space;
  
   
   
-body{background-image: url(../imagens/nummr.jpg);}
+body{background-image: url(../imagens/numemr.jpg);}
 
 #impressao{
   font-size: 20px;
@@ -167,11 +167,11 @@ body{background-image: url(../imagens/nummr.jpg);}
   }
 
   #play{
-    font-size: 15px;
+    font-size: 18px;
   }
 
   #container h2{
-    margin-left:17%;
+    margin-left:14%;
     font-size: 25px;
 
   }
@@ -203,8 +203,8 @@ body{background-image: url(../imagens/nummr.jpg);}
     }
   
     #container h2{
-      margin-left:14%;
-      font-size: 30px;
+      margin-left:13%;
+      font-size: 28px;
     }
 
     #container{
@@ -215,5 +215,9 @@ body{background-image: url(../imagens/nummr.jpg);}
 }
 
 @media screen and (min-width:1500px) {
-  body{  background-image:url(../imagens/nummrr.jpg);}
+  #container h2{
+    margin-left:8%;
+    font-size: 30px;
+  }
+  body{  background-image:url(../imagens/numemrr.jpg);}
 }

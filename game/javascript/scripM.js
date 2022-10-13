@@ -9,18 +9,20 @@ const secret =1+ Math.floor(Math.random() * 200)
 const timer = document.getElementById("timer")
 const body = document.getElementById("body")
 let back=new Audio();
-back.src="../audios/medium.mp3"
+back.src="../audios/m.mp3"
 let gm=new Audio();
-gm.src="../audios/demon-go.mp3"
+gm.src="../audios/gameoverM.mp3"
 let yw=new Audio()
-yw.src="../audios/youwin.mp3"
+yw.src="../audios/ywin.mp3"
 let clock=new Audio()
-clock.src="../audios/clock.ogg"
+clock.src="../audios/ctr.ogg"
 let set
 let time = 45
 let tset
 let gtime = -2
 let erro = 0
+
+
 
 function limpar(){
   impressao.innerHTML = ""
@@ -42,7 +44,7 @@ function stopWatch() {
     back.pause()
     clock.pause()
     gm.play()
-    container.style.backgroundImage = " url(../imagens/gmrt.jpg)"
+    container.style.backgroundImage = " url(../imagens/gomrt.jpg)"
    endgame()
     impressao.style.color = "red"
     impressaoErro.style.color = "red"
@@ -76,7 +78,7 @@ const jogar = function () {
     back.pause()
     clock.pause()
     yw.play()
-    container.style.backgroundImage = " url(../imagens/youw.jpg)"
+    container.style.backgroundImage = " url(../imagens/youwin.jpg)"
     impressao.style.color = "rgb(59, 255, 59)"
     impressao.innerHTML = "Parabéns, você acertou o número!"
     impressaoErro.innerHTML = "Você precisou de " + erro + " tentativas"

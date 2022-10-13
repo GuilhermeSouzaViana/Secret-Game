@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  background-image: url(../imagens/numh.jpg);
+  background-image: url(../imagens/numeh.jpg);
   background-repeat:space;
 
   }
@@ -18,7 +18,7 @@ body {
   
   
   #container h2{
-    margin-left:20%;
+    margin-left:15%;
     font-size: 25px;
   }
   
@@ -71,7 +71,7 @@ body {
      color: white;
   }
 
-  @media screen and (min-width:250px) and (max-width:399px) {
+  @media screen and (min-width:250px) and (max-width:349px) {
 
     #impressaoErro,#impressaoTempo{
       font-size: 14px;
@@ -98,7 +98,7 @@ body {
       }
     
       #container h2{
-        margin-left:15%;
+        margin-left:10%;
         font-size: 14px;
     
       }
@@ -115,7 +115,7 @@ body {
   @media screen and (min-width:350px) and (max-width:599px){
     
   
-    body{background-image: url(../imagens/numhr.jpg);} 
+    body{background-image: url(../imagens/numehr.jpg);} 
   
     #impressao{
       font-size: 18px;
@@ -133,7 +133,7 @@ body {
       }
     
       #container h2{
-        margin-left:13%;
+        margin-left:17%;
         font-size: 18px;
     
       }
@@ -150,7 +150,7 @@ body {
   
   @media screen and (min-width:600px) and (max-width:785px){
     
-   body{background-image: url(../imagens/numhr.jpg);} 
+   body{background-image: url(../imagens/numehr.jpg);} 
 
 
   #impressao{
@@ -166,7 +166,7 @@ body {
     }
   
     #container h2{
-      margin-left:17%;
+      margin-left:14%;
       font-size: 25px;
   
     }
@@ -198,8 +198,8 @@ body {
       }
     
       #container h2{
-        margin-left:14%;
-        font-size: 30px;
+        margin-left:13%;
+        font-size: 28px;
       }
   
       #container{
@@ -210,5 +210,9 @@ body {
   }
 
   @media screen and (min-width:1500px) {
-    body{  background-image:url(../imagens/numhrr.jpg);}
+    #container h2{
+      margin-left:8%;
+      font-size: 30px;
+    }
+    body{  background-image:url(../imagens/numehrr.jpg);}
   }

@@ -9,20 +9,18 @@ const secret = 1+Math.floor(Math.random() * 300)
 const timer = document.getElementById("timer")
 const body = document.getElementById("body")
 let back=new Audio();
-back.src="../audios/hard.mp3"
+back.src="../audios/h.mp3"
 let gm=new Audio();
-gm.src="../audios/game_over.mp3"
+gm.src="../audios/gameoverH.mp3"
 let yw=new Audio()
-yw.src="../audios/youwinH.wav"
+yw.src="../audios/ywinH.wav"
 let clock=new Audio()
-clock.src="../audios/clock.ogg"
+clock.src="../audios/ctr.ogg"
 let set
 let time = 30
 let tset
 let gtime = -2
 let erro = 0
-
-
 
 
 function endgame (){
@@ -42,7 +40,7 @@ function stopWatch() {
     back.pause()
     clock.pause()
     gm.play()
-    container.style.backgroundImage = " url(../imagens/gmrt.jpg)"
+    container.style.backgroundImage = " url(../imagens/gomrt.jpg)"
     endgame()
     impressao.style.color = "red"
     impressaoErro.style.color = "red"
@@ -79,7 +77,7 @@ const jogar = function () {
     clock.pause()
     yw.play()
     clearInterval(set)
-    container.style.backgroundImage = " url(../imagens/youw.jpg)"
+    container.style.backgroundImage = " url(../imagens/youwin.jpg)"
     impressao.style.color = "rgb(59, 255, 59)"
     impressao.innerHTML = "Parabéns, você acertou o número!"
     impressaoErro.innerHTML = "Você precisou de " + erro + " tentativas"

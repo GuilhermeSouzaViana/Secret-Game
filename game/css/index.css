@@ -1,6 +1,6 @@
 body{
     background-color:white;
-    background-image: url(../imagens/i.jpg);
+    background-image: url(../imagens/intro.jpg);
     background-repeat: space;
     background-size: cover;
 }
@@ -111,7 +111,7 @@ div p{
 @media screen and (min-width:400px) and (max-width:785px) {
     
    body{
-    background-image:url(../imagens/ir.jpg);
+    background-image:url(../imagens/intror.jpg);
 }
 
     h1{font-size: 50px;}
