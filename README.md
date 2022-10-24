@@ -11,7 +11,7 @@
    <img src="https://user-images.githubusercontent.com/102191587/197561170-597c1a0a-0769-49e0-8108-dcd4c1a9348b.png"  width="400px"/>
 </div>
 
-<p align="center">Cada dificuldade tem suas peculiaridades e efeitos sonoros exclusivos.</p>
+### <p align="center">Cada dificuldade tem suas peculiaridades e efeitos sonoros exclusivos.</p>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/102191587/197561600-29b651b3-25e8-44ea-9d4d-484f2766b3e5.png" width="400px" />
