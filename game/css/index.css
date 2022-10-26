@@ -1,8 +1,9 @@
 body{
     background-color:white;
-    background-image: url(../imagens/intro.jpg);
-    background-repeat: space;
-    background-size: cover;
+    background-image: url(../imagens/Duvida.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
 }
 
 
@@ -110,10 +111,6 @@ div p{
 
 @media screen and (min-width:400px) and (max-width:785px) {
     
-   body{
-    background-image:url(../imagens/intror.jpg);
-}
-
     h1{font-size: 50px;}
     h2{
         font-size:23px;

@@ -36,7 +36,7 @@ const jogar = function(){
 setTimeout(limpar,2000)
 
 }else if(entrada.value==secret){
-  container.style.backgroundImage = " url(../imagens/youwin.jpg)"
+  container.style.backgroundImage = " url(../imagens/winner.gif)"
   gm.pause()
   yw.play()
   impressao.style.color = "rgb(59, 255, 59)"

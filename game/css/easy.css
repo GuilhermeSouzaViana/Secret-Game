@@ -13,6 +13,8 @@ body {
   margin-right: auto;
   margin-top: 15%;
   border-radius: 25px;
+  background-size: cover;
+  background-position: center center;
 }
 
 

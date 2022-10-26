@@ -23,6 +23,7 @@ let gtime = -2
 let erro = 0
 
 
+
 function endgame (){
   sn.style.display = "none"
   entrada.style.display = "none"
@@ -40,7 +41,8 @@ function stopWatch() {
     back.pause()
     clock.pause()
     gm.play()
-    container.style.backgroundImage = " url(../imagens/gomrt.jpg)"
+    container.style.backgroundColor = "black"
+    container.style.backgroundImage = " url(../imagens/mario.webp)"
     endgame()
     impressao.style.color = "red"
     impressaoErro.style.color = "red"
@@ -77,7 +79,7 @@ const jogar = function () {
     clock.pause()
     yw.play()
     clearInterval(set)
-    container.style.backgroundImage = " url(../imagens/youwin.jpg)"
+    container.style.backgroundImage = " url(../imagens/wario.gif)"
     impressao.style.color = "rgb(59, 255, 59)"
     impressao.innerHTML = "Parabéns, você acertou o número!"
     impressaoErro.innerHTML = "Você precisou de " + erro + " tentativas"

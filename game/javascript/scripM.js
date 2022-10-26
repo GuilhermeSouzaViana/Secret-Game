@@ -24,6 +24,7 @@ let erro = 0
 
 
 
+
 function limpar(){
   impressao.innerHTML = ""
 }
@@ -44,7 +45,7 @@ function stopWatch() {
     back.pause()
     clock.pause()
     gm.play()
-    container.style.backgroundImage = " url(../imagens/gomrt.jpg)"
+    container.style.backgroundImage = " url(../imagens/homemaranha.gif)"
    endgame()
     impressao.style.color = "red"
     impressaoErro.style.color = "red"
@@ -78,7 +79,7 @@ const jogar = function () {
     back.pause()
     clock.pause()
     yw.play()
-    container.style.backgroundImage = " url(../imagens/youwin.jpg)"
+    container.style.backgroundImage = " url(../imagens/homemaranhaW.gif)"
     impressao.style.color = "rgb(59, 255, 59)"
     impressao.innerHTML = "Parabéns, você acertou o número!"
     impressaoErro.innerHTML = "Você precisou de " + erro + " tentativas"
