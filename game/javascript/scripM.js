@@ -5,7 +5,7 @@ const impressao = document.getElementById("impressao");
 const sn=document.getElementById("sn")
 const impressaoErro = document.getElementById("impressaoErro");
 const impressaoTempo = document.getElementById("impressaoTempo");
-const secret =1+ Math.floor(Math.random() * 200)
+const secret =1+ Math.floor(Math.random() * 300)
 const timer = document.getElementById("timer")
 const body = document.getElementById("body")
 let back=new Audio();
@@ -21,8 +21,6 @@ let time = 45
 let tset
 let gtime = -2
 let erro = 0
-
-
 
 
 function limpar(){
@@ -82,7 +80,7 @@ const jogar = function () {
     container.style.backgroundImage = " url(../imagens/homemaranhaW.gif)"
     impressao.style.color = "rgb(59, 255, 59)"
     impressao.innerHTML = "Parabéns, você acertou o número!"
-    impressaoErro.innerHTML = "Você precisou de " + erro + " tentativas"
+    impressaoErro.innerHTML = "Você precisou de " + (erro+1)+ " tentativas"
     impressaoErro.style.color = "rgb(59, 255, 59)"
     impressaoTempo.style.color = "rgb(59, 255, 59)"
     impressaoTempo.innerHTML = "O tempo total gasto foi: " + gtime + " segundos"

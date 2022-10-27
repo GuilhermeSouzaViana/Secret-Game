@@ -41,7 +41,7 @@ setTimeout(limpar,2000)
   yw.play()
   impressao.style.color = "rgb(59, 255, 59)"
   impressao.innerHTML="Parabéns, você acertou o número!"
-  impressaoErro.innerHTML="Você precisou de "+ erro +" tentativas para acertar"
+  impressaoErro.innerHTML="Você precisou de "+ (erro+1) +" tentativas para acertar"
   impressaoErro.style.color = "rgb(59, 255, 59)"
   sn.style.display = "none"
   entrada.style.display = "none"
