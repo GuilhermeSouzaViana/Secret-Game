@@ -16,6 +16,8 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/102191587/197561600-29b651b3-25e8-44ea-9d4d-484f2766b3e5.png" width="400px" />
    <img src="https://user-images.githubusercontent.com/102191587/198161158-c1d97c16-7ccb-4179-9928-990cd9cb9771.png"/  width="400px">
+    <img src="https://user-images.githubusercontent.com/102191587/198187674-5eff3da2-674c-4e8b-8af2-110b98dbd346.png" width="400px" />
+   <img src="https://user-images.githubusercontent.com/102191587/198187689-90e6e54e-9b4c-43c8-977b-98d5695d283a.png"/  width="400px">
 </div>
 
 ## O projeto está totalmente responsivo 📱
