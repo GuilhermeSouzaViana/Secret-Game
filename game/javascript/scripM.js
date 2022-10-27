@@ -47,8 +47,8 @@ function stopWatch() {
     gm.play()
     container.style.backgroundImage = " url(../imagens/homemaranha.gif)"
    endgame()
-    impressao.style.color = "red"
-    impressaoErro.style.color = "red"
+    impressao.style.color = "white"
+    impressaoErro.style.color = "white"
     impressao.innerHTML = "Tempo esgotado !"
     impressaoErro.innerHTML = "O numero secreto é: " + secret
   }else if(time<=10){

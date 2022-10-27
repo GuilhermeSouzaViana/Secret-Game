@@ -1,4 +1,4 @@
-let modoJ=document.getElementById("easy")
+let modoJ=document.getElementById("modos")
 let bloco=document.getElementsByClassName("bloco")
 
 function DisplayE (){  

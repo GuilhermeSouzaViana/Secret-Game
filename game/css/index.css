@@ -97,7 +97,6 @@ div p{
         width:130px;
         padding:40px;
         height:15px;
-        border-radius:none;
     }
    
     a{font-size: 16px; margin:25px;}
@@ -112,18 +111,15 @@ div p{
 @media screen and (min-width:350px) and (max-width:785px) {
     
     h1{font-size: 50px};
-    h2{
-        font-size:23px;
-        width:205px;
-        height:30px;
-        padding:50px;
-    }
     a{font-size: 25px; margin:20px;}
     p{font-size: 25px;}
     div p{font-size:20px;}
     div h3{font-size:25px;}
-
-    
+    h2{font-size:28px;
+        width:190px;
+        padding:50px;
+        height:25px;
+    }
 
 }
 
