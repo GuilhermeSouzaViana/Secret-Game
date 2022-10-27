@@ -23,6 +23,7 @@ let gtime = -2
 let erro = 0
 
 
+
 function limpar(){
   impressao.innerHTML = ""
 }
@@ -45,10 +46,12 @@ function stopWatch() {
     gm.play()
     container.style.backgroundImage = " url(../imagens/homemaranha.gif)"
    endgame()
-    impressao.style.color = "white"
+    impressao.style.color = "black"
     impressaoErro.style.color = "white"
+    impressaoTempo.style.color = "black"
     impressao.innerHTML = "Tempo esgotado !"
-    impressaoErro.innerHTML = "O numero secreto é: " + secret
+    impressaoTempo.innerHTML = "O numero secreto é: " + secret
+    impressaoErro.innerHTML = "Total de erros " + erro
   }else if(time<=10){
     clock.play()
     timer.style.color="red"

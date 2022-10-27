@@ -60,9 +60,14 @@ background-repeat:space;
 
 
 #impressaoErro,#impressaoTempo{
-  margin:7px
+  margin:7px;
+  font-size: 25px;
+  
 }
 
+#impressao{
+  font-size: 30px;
+}
 
 #timer{
   padding:5px;
@@ -80,18 +85,14 @@ background-repeat:space;
 
 
   
-  #impressaoErro,#impressaoTempo{
-    font-size: 14px;
+  #impressaoErro,#impressaoTempo,#impressao{
+    font-size: 16px;
   }
 
   body{
     background-image: none;
   }
 
-  #impressao{
-    font-size: 14px;
-  }
-  
     #entrada{
       font-size: 14px;
       width:35%;    
@@ -125,7 +126,7 @@ background-repeat:space;
   body{background-image: url(../imagens/numemr.jpg);}
 
   #impressao{
-    font-size: 18px;
+    font-size: 25px;
   }
   
     #entrada{
@@ -162,7 +163,7 @@ background-repeat:space;
 body{background-image: url(../imagens/numemr.jpg);}
 
 #impressao{
-  font-size: 20px;
+  font-size: 28px;
 }
 
   #entrada{
@@ -199,7 +200,7 @@ body{background-image: url(../imagens/numemr.jpg);}
 
 @media screen and (min-width:1400px) {
   #impressao{
-    font-size: 30px;
+    font-size: 35px;
   }
   
     #entrada{

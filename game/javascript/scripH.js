@@ -46,8 +46,10 @@ function stopWatch() {
     endgame()
     impressao.style.color = "red"
     impressaoErro.style.color = "red"
+    impressaoTempo.style.color = "red"
     impressao.innerHTML = "Tempo esgotado !"
-    impressaoErro.innerHTML = "O numero secreto é: " + secret
+    impressaoTempo.innerHTML = "O numero secreto é: " + secret
+    impressaoErro.innerHTML = "Total de erros " + erro
   }else if(time<=10){
     clock.play()
     timer.style.color="red"
