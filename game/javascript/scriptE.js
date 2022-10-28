@@ -25,7 +25,7 @@ const jogar = function(){
   entrada.value = "";
   impressao.style.color="red"
   impressao.innerHTML="Você errou. O número secreto é menor"
- setTimeout(limpar,2000)
+ setTimeout(limpar,1200)
 
 }else if(entrada.value<secret){  
   gm.play() 
@@ -33,7 +33,7 @@ const jogar = function(){
   entrada.value = "";
   impressao.style.color="rgb(235, 0, 0)"
   impressao.innerHTML="Você errou. O número secreto é maior"
-setTimeout(limpar,2000)
+setTimeout(limpar,1200)
 
 }else if(entrada.value==secret){
   container.style.backgroundImage = " url(../imagens/winner.gif)"
