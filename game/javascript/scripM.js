@@ -5,7 +5,7 @@ const impressao = document.getElementById("impressao");
 const sn=document.getElementById("sn")
 const impressaoErro = document.getElementById("impressaoErro");
 const impressaoTempo = document.getElementById("impressaoTempo");
-const secret =1+ Math.floor(Math.random() * 300)
+const secret =1+ Math.floor(Math.random() * 500)
 const timer = document.getElementById("timer")
 const body = document.getElementById("body")
 let back=new Audio();
@@ -19,7 +19,7 @@ clock.src="../audios/ctr.ogg"
 let set
 let time = 45
 let tset
-let gtime = -2
+let gtime = -1
 let erro = 0
 
 
